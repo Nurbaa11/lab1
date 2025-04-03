@@ -6,8 +6,8 @@ black = (0, 0, 0)
 screen.fill(black)
 isDone = True
 index = 0
-sounds = ["sounds/Dr.Dre Still D.R.E..mp3", "sounds/Eminem Lose Yourself.mp3",
-          "sounds/Soulchef Write This Down (feat. Nieve).mp3"]
+sounds = ["Dr. Dre Still D.R.E..mp3", "Eminem Lose Yourself.mp3",
+          "Soulchef Write This Down (feat. Nieve).mp3"]
 isPaused = False
 isPlayed = True
 
