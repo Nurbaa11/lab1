@@ -16,5 +16,4 @@ thistuple1 = tuple(y1)
 thistuple = ("apple", "banana", "cherry")
 y2 = ("orange",)
 thistuple += y2
-
 print(thistuple)
