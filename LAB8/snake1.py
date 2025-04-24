@@ -73,10 +73,10 @@ def playAgain():
             for event in pygame.event.get():
                 if event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_p:
-                        return  # Restart the game loop instead of calling playAgain() again
+                        return  # қайта бастау
                     if event.key == pygame.K_q:
                         pygame.quit()
-                        sys.exit()  # Properly quit the game
+                        sys.exit()  # дұрыс жолмен ойынды аяқтау
 
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
