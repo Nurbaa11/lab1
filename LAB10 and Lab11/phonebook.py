@@ -113,12 +113,14 @@ while check:
                     back = True
 
             if temp == "phone":
-                name_var = str(input("Enter phone number that you want to change: "))
-                name_upd = str(input("Enter the new phone number: "))
+                phone_var = str(input("Enter phone number that you want to change: "))
+                phone_upd = str(input("Enter the new phone number: "))
                 cur.execute("UPDATE phonebook SET phone = %s WHERE phone = %s", (phone_upd, phone_var))
+                conn.commit()
                 back_com = str(input('Type "back" in order to return to the list of the commands: '))
                 if back_com == "back":
                     back = True
+
         
         #query
         if command == "q" or command == "Q":
